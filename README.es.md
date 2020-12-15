@@ -24,3 +24,9 @@ Este ejercicio cubre los siguientes fundamentos:
 5. Overflow.
 6. Usando Flex vs Position vs Float vs Display.
 7. Usando un formulario simple.
+
+## Para levantar el servidor
+'''
+python3 -m http.server 3000
+
+'''

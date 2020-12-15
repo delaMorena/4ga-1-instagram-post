@@ -1,0 +1,34 @@
+body {
+    border: 1px solid #C00;
+    background-color: black;
+}
+.post {
+    background-color: white;
+    border: 1px solid #C00;
+    width: 600px;
+    margin: 200px auto;
+}
+.post-header {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    margin-left: 320px;
+}
+.post-footer {
+    margin: 10px;
+}
+.icono {
+    font-size: 40px;
+}
+.iconos-footer {
+    display: flex;
+    justify-content: start;
+}
+.far {
+    padding: 0 5px;
+}
+.fa-bookmark {
+    margin-left: 350px;
+}
