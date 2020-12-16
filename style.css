@@ -1,23 +1,30 @@
 body {
-    border: 1px solid #C00;
     background-color: black;
 }
 .post {
     background-color: white;
-    border: 1px solid #C00;
-    width: 600px;
+    border: 1px solid black;
+    width: 550px;
     margin: 200px auto;
+    font-family: 'Open Sans', sans-serif;
 }
 .post-header {
     margin: 10px;
     display: flex;
     justify-content: space-around;
 }
+h3 {
+    margin: 0px;
+}
+.user_name > p {
+    margin: 0px;
+}
 .menu {
     margin-left: 320px;
 }
 .post-footer {
-    margin: 10px;
+    margin: 20px;
+    padding-bottom: 15px;
 }
 .icono {
     font-size: 40px;
@@ -25,10 +32,11 @@ body {
 .iconos-footer {
     display: flex;
     justify-content: start;
+    margin: 25px 0;
 }
 .far {
     padding: 0 5px;
 }
 .fa-bookmark {
-    margin-left: 350px;
+    margin-left: 320px;
 }
